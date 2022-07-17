@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+cleancreations.com	TRUE	/	FALSE	1999999999	ci_session	48qc6m5ho34g5lue6r0kn4tfd0svgbtg
+

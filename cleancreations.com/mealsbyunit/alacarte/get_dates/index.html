@@ -1,0 +1,41 @@
+<div class="row">
+    <div class="col-lg-6 col-xs-12">
+            <div class="opop ">
+                        <table id="date_select" class="scrolls scroll_horizontal_custom">
+                <tr>
+                                            <td style="padding-left: 5px; padding-right: 10px; font-weight: bold;" colspan="1">
+                            <span class="month_date">July 2022</span>
+                        </td>
+                                    </tr>
+                <tr>
+                                                <td style="text-align:center; padding-right:10px;">
+                                <div onclick="grabAndGoChangeDate(this);" data-formatedDate="T3JkZXIgZm9yIDxicj4gPGI+U3VuZGF5LCBKdWx5IDI0LCAyMDIyPC9iPg==" class="square_date  active" style="display:block;" data-date="2022-07-24" title="Sun 2022-07-24">
+                                    <p class="week_date  primary">
+                                        Sun                                    </p>
+                                    <p class="day_date bold  primary">
+                                        24                                    </p>
+                                </div>
+                            </td>
+                                            </tr>
+            </table>
+        </div>
+    </div>
+    <div class="col-lg-6 col-xs-12">
+        <div class="order_day_wrapper">
+            <div class="current_date order">Order for <br> <b>Sunday, July 24, 2022</b></div>
+        </div>
+    </div>
+</div>
+<script>
+    $(".square_date").click(function(e){ 		//console.log("aa");
+        $(".square_date").removeClass("active");
+        $(this).addClass("active");
+        e.preventDefault();
+        var date_selected = $(this).data("date");
+
+  
+
+        mealsShowRefresh(date_selected);
+
+    });
+</script>

@@ -1,0 +1,52 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 17 Jul 2022 20:54:29 at https://cleancreations.com +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://cleancreations.com -O1 "C:\My Web Sites\MyNewProject" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+20:54:50	Error: 	"Connect Error" (-4) after 2 retries at link https://cleancreations.com/robots.txt (from primary/primary)
+20:54:51	Warning: 	Retry after error -4 (Connect Error) at link https://cleancreations.com/ (from primary/primary)
+20:54:53	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://cleancreations.com/ (from primary/primary)
+20:58:00	Warning: 	Retry after error -2 (Receive Time Out) at link https://cleancreations.com/data/config/client_logo.png?md=f341c123680491a1ca69dd7a67ca190e (from https://cleancreations.com/)
+21:01:34	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://cleancreations.com/)
+21:02:09	Error: 	"Not Found" (404) at link https://cleancreations.com/transparent (from https://cleancreations.com/)
+21:02:09	Error: 	"Not Found" (404) at link https://cleancreations.com/assets/css/ajax/libs/slick-carousel/1.5.9/fonts/slick.eot (from https://cleancreations.com/assets/css/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css)
+21:02:09	Error: 	"Not Found" (404) at link https://cleancreations.com/assets/css/ajax/libs/slick-carousel/1.5.9/fonts/slick.eot? (from https://cleancreations.com/assets/css/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css)
+21:02:09	Error: 	"Not Found" (404) at link https://cleancreations.com/assets/css/ajax/libs/slick-carousel/1.5.9/fonts/slick.svg (from https://cleancreations.com/assets/css/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css)
+21:02:09	Warning: 	File not parsed, looks like binary: https://cleancreations.com//assets/webfonts/fa-brands-400.woff2
+21:02:10	Warning: 	File not parsed, looks like binary: https://cleancreations.com//assets/webfonts/fa-regular-400.woff2
+21:02:10	Warning: 	File not parsed, looks like binary: https://cleancreations.com//assets/webfonts/fa-solid-900.woff2
+21:02:13	Error: 	"Not Found" (404) at link https://cleancreations.com/assets/img/arrow-left.png (from https://cleancreations.com/assets/css/material-kit.css)
+21:02:13	Error: 	"Not Found" (404) at link https://cleancreations.com/assets/img/arrow-left.cur (from https://cleancreations.com/assets/css/material-kit.css)
+21:02:13	Error: 	"Not Found" (404) at link https://cleancreations.com/assets/img/arrow-right.png (from https://cleancreations.com/assets/css/material-kit.css)
+21:02:13	Error: 	"Not Found" (404) at link https://cleancreations.com/assets/img/arrow-right.cur (from https://cleancreations.com/assets/css/material-kit.css)
+21:02:13	Warning: 	File not parsed, looks like binary: https://cleancreations.com/assets/fonts/glyphicons-halflings-regular.woff2
+21:02:13	Error: 	"Not Found" (404) at link https://cleancreations.com/assets/fonts/avenir/AvenirNextLTPro-Heavy.eot (from https://cleancreations.com/assets/css/theme/styles.min.css?v=d8e857dcda68e610d785626eb4a3feb5)
+21:02:13	Error: 	"Not Found" (404) at link https://cleancreations.com/assets/fonts/avenir/AvenirNextLTPro-Heavy.otf (from https://cleancreations.com/assets/css/theme/styles.min.css?v=d8e857dcda68e610d785626eb4a3feb5)
+21:02:13	Error: 	"Not Found" (404) at link https://cleancreations.com/assets/fonts/avenir/AvenirNextLTPro-Heavy.svg (from https://cleancreations.com/assets/css/theme/styles.min.css?v=d8e857dcda68e610d785626eb4a3feb5)
+21:02:13	Error: 	"Not Found" (404) at link https://cleancreations.com/assets/fonts/avenir/AvenirNextLTPro-Bold.eot (from https://cleancreations.com/assets/css/theme/styles.min.css?v=d8e857dcda68e610d785626eb4a3feb5)
+21:02:13	Error: 	"Not Found" (404) at link https://cleancreations.com/assets/fonts/avenir/AvenirNextLTPro-Bold.otf (from https://cleancreations.com/assets/css/theme/styles.min.css?v=d8e857dcda68e610d785626eb4a3feb5)
+21:02:13	Error: 	"Not Found" (404) at link https://cleancreations.com/assets/fonts/avenir/AvenirNextLTPro-Bold.svg (from https://cleancreations.com/assets/css/theme/styles.min.css?v=d8e857dcda68e610d785626eb4a3feb5)
+21:02:13	Error: 	"Not Found" (404) at link https://cleancreations.com/assets/fonts/avenir/AvenirNextLTPro-UltLt.ttf (from https://cleancreations.com/assets/css/theme/styles.min.css?v=d8e857dcda68e610d785626eb4a3feb5)
+21:02:13	Error: 	"Not Found" (404) at link https://cleancreations.com/assets/fonts/avenir/AvenirNextLTPro-UltLt.eot (from https://cleancreations.com/assets/css/theme/styles.min.css?v=d8e857dcda68e610d785626eb4a3feb5)
+21:02:13	Error: 	"Not Found" (404) at link https://cleancreations.com/assets/fonts/avenir/AvenirNextLTPro-UltLt.otf (from https://cleancreations.com/assets/css/theme/styles.min.css?v=d8e857dcda68e610d785626eb4a3feb5)
+21:02:13	Error: 	"Not Found" (404) at link https://cleancreations.com/assets/fonts/avenir/AvenirNextLTPro-UltLt.svg (from https://cleancreations.com/assets/css/theme/styles.min.css?v=d8e857dcda68e610d785626eb4a3feb5)
+21:02:13	Error: 	"Not Found" (404) at link https://cleancreations.com/assets/css/images/plus-sign-icon-31.png (from https://cleancreations.com/assets/css/theme/styles.min.css?v=d8e857dcda68e610d785626eb4a3feb5)
+21:02:13	Error: 	"Not Found" (404) at link https://cleancreations.com/assets/css/images/home-banner2.jpg (from https://cleancreations.com/assets/css/theme/styles.min.css?v=d8e857dcda68e610d785626eb4a3feb5)
+21:02:13	Error: 	"Forbidden" (403) at link https://cleancreations.com/assets/css/theme/... (from https://cleancreations.com/assets/css/theme/styles.min.css?v=d8e857dcda68e610d785626eb4a3feb5)
+21:02:13	Error: 	"Not Found" (404) at link https://cleancreations.com/assets/css/theme/chosen-sprite.png (from https://cleancreations.com/assets/css/theme/styles.min.css?v=d8e857dcda68e610d785626eb4a3feb5)
+21:02:14	Error: 	"Not Found" (404) at link https://cleancreations.com/assets/assets/images/invite_2.svg (from https://cleancreations.com/assets/css/theme/styles.min.css?v=d8e857dcda68e610d785626eb4a3feb5)
+21:02:14	Error: 	"Not Found" (404) at link https://startersitev2.wmg-gardens.com/sites/startersitev2.wmg-gardens.com/files/201306/home-onepage-mobile_menu.png (from https://cleancreations.com/assets/css/theme/styles.min.css?v=d8e857dcda68e610d785626eb4a3feb5)
+21:02:14	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://i.imgur.com/3jPEt5q.jpg (from https://cleancreations.com/assets/css/theme/styles.min.css?v=d8e857dcda68e610d785626eb4a3feb5)
+21:02:47	Error: 	"Not Found" (404) at link https://cleancreations.com/mealsbyunit/alacarte/get_stocks/ (from https://cleancreations.com/mealsbyunit)
+21:02:55	Error: 	"Not Found" (404) at link https://cleancreations.com/«url» (from https://cleancreations.com/blog)
+21:02:55	Error: 	"Not Found" (404) at link https://cleancreations.com/«imageUrl» (from https://cleancreations.com/blog)
+21:02:55	Error: 	"Not Found" (404) at link https://cleancreations.com/pages/register (from https://cleancreations.com/pages/about)
+21:02:56	Error: 	"Not Found" (404) at link https://cleancreations.com/pages/transparent (from https://cleancreations.com/pages/about)
+21:02:56	Warning: 	Retry after error -4 (Connect Error) at link https://i.imgur.com/3jPEt5q.jpg (from https://cleancreations.com/assets/css/theme/styles.min.css?v=d8e857dcda68e610d785626eb4a3feb5)
+21:03:39	Error: 	"error:00000005:lib(0):func(0):DH lib" (-5) after 2 retries at link https://i.imgur.com/3jPEt5q.jpg (from https://cleancreations.com/assets/css/theme/styles.min.css?v=d8e857dcda68e610d785626eb4a3feb5)
+
+HTTrack Website Copier/3.49-2 mirror complete in 9 minutes 10 seconds : 252 links scanned, 215 files written (34567527 bytes overall) [27463898 bytes received at 49934 bytes/sec], 9997848 bytes transferred using HTTP compression in 91 files, ratio 27%, 3.5 requests per connection
+(32 errors, 9 warnings, 0 messages)
